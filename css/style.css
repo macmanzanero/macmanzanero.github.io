@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+
+  color: #222;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -22,6 +24,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  color: #222;
 }
 
 /* Custom page footer */
@@ -94,9 +97,11 @@ body {
 .header-bar {
   display: block;
   padding: 5px 10px;
+  /*
   color: #fff;
+  */
   text-align: left;
-  background-color: #848482;
+  background-color: #F7F6F5;
 }
 
 .header-bar .address {
@@ -122,4 +127,16 @@ body {
   .col-sm-2 {
     width: 16.66666667%;
   }
+}
+
+/* CSS añadido por macmanzanero para personalizar la web*/
+a { color: #a78f5e; text-decoration: none; 
+-webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: none; }
+a:hover { text-decoration: none; color: #222;  } 
+
+hr { clear: both; background: #a78f5e; height: 2px; width: 80px; border: 0; margin: 0 0 1em 0; }
+
+h3, p {
+  color: #000;
 }
